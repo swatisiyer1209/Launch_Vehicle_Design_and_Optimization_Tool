@@ -9,9 +9,13 @@ To use the tool the following inputs are required:
 4.	Longitude (in degrees)
 5.	Latitude (in degrees)
 6.	Propellant choice for both stages (entered as an array corresponding to propellant choice):
+   
     a.	1: LOX/LH2 (Hydrolox)
+  	
     b.	2: LOX/RP1 (Kerolox)
+  	
     c.	3: LOX/CH4 (Methalox)
+  	
     Example : [2 1]: represents Kerolox-powered stage 1 and Hydrolox-powered stage 2
 7.	Material choice (entered as a number corresponding to material type)
    
@@ -20,10 +24,13 @@ To use the tool the following inputs are required:
     b.	2: Al-Li 2195
   	
     c.	3: Al 2014-T6
+  	
     d.	4: 4340 Steel
+  	
     e.	5: Ti 6Al-4V
-    f.	6: CFRP
-9.	Optimization Objective (entered as a number corresponding to material type)
+  	
+    f.	6: CFRP	
+8.	Optimization Objective (entered as a number corresponding to material type)
    
     a.	1: Minimize GLOM
   	
